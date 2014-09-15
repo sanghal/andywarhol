@@ -1,0 +1,142 @@
+
+/*fonts*/
+
+@font-face {
+	font-family: Sansation;
+	src: url(../fonts/Sansation/Sansation_Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: journal;
+	src: url(../fonts/Journal/journal.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: DistantGalaxy;
+	src: url(../fonts/Distant-Galaxy/DISTGRG_.ttf) format("truetype");
+}
+
+
+
+html {
+	background: url(../Images/Clean-Gray-BackGround.jpg);
+	repeat top center #424242;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: auto;
+}
+
+body {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+h3 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: journal;
+	font-size: 25px;
+}
+
+h2 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+#wrapper { 
+	 margin: 0 auto;
+	 width: 922px;
+}
+
+header {
+	width: 900px;
+	height: 200px;
+	float: left;
+	margin: 10px 0px 5px 0px;
+	padding: 10px;
+	background: url(../Images/Clean-Gray-BackGround.jpg);
+}
+
+
+header h1 {
+	float: left;
+	font-family: journal; 
+	font-size: 60px;
+	color: #FFFCFF;
+}
+
+nav {
+top: 0;
+width: 100%;
+color: #ffffff;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+	margin-left:1px;
+	position:fixed;
+
+}
+
+
+nav a {
+	float: left;
+	padding-left: 15px;
+padding-right: 15px;
+	font-family: Sansation;
+	font-size:20px;
+	margin-left:1px;
+	color:#fff;
+	text-shadow:0 0px 8px #000;
+
+}
+	
+
+nav a:hover {
+	color: #FFFFFF; 
+} 
+
+nav a.newgroup {
+	margin-top: 20px;
+}
+
+
+
+footer { 
+
+	width: 900px;
+	height: 30px;
+	clear: both;
+	padding: 10px;
+	background: #000000;
+}
+
+address {
+	color: white; 
+	font-style: normal; 
+	font-variant: small-caps; 
+	text-align: center; 
+}
+
+#styleswitch {
+	position:absolute;
+	top:0;
+	right:15px;
+	background: #000;
+	padding:13px;
+}
+
+#styleswitch ul li a {
+	font-size:12px;
+	color: #fff;
+	text-decoration:none;
+}
+
+#styleswitch ul li a:hover {
+	text-decoration:underline;	
+}

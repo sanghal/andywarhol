@@ -1,0 +1,94 @@
+<!DOCTYPE html> 	
+<html lang="en"> 	
+
+<head> 
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+  <script src="js/jquery-2.0.3.min.js" type="text/javascript"></script>
+  <script src="js/jquery.validate.js" type="text/javascript"></script>
+
+    <script>
+    $(document).ready(function(){
+      $("#contact_form").validate();
+    });
+    </script>
+
+<title>Andy Warhol</title>
+</head>
+
+<body>
+
+
+<div id="wrapper">
+
+
+<div id="nav-bar" class= "w100">
+        <ul class="ulnodec">
+            <li class="disp-inline"><a href="index.html"><img id="nav-img" src="Images/andywarhol copy.png"/></li>
+            <li class="disp-inline ml10"><a href="about exihibition.html">About Andy Warhol</a></li>
+            <li class="disp-inline ml10"><a href="collection.html">Collection</a></li>
+            <li class="disp-inline ml10"><a href="Art Shop.html">Art Shop</a></li>
+            <li class="disp-inline ml10"><a href="Contact Us.html">Contact Us</a></li>
+            <li class="disp-inline ml10"><a href="learnmore.html">Learn More</a></li>
+        </ul>
+    </div>
+<h1>Learn More</h1>
+
+<h2>Get Involed:</h2>
+<p>The Miller Gallery is seeking volunteers to help with this exhibit. Please fill in the form below if you are interested.
+</br> Please fill out the required (*) section when submitting.</p> 
+<form id="contact_form" name="contact_form" action="http://www.andrew.cmu.edu/cgi-bin/mailto" method="post" enctype="plain/text">
+				<input name="MailTo" type="hidden" value="sanghal@andrew.cmu.edu" />
+
+<label for="name">Name:*</label>
+<input type="text" name="name" id="name" required />
+<br /><br />
+	
+<label for="state">State:</label>
+<input type="text" name="state" id="state" />
+<br /><br />
+		
+<label for="email">Email Address:*</label>
+<input type="email" name="email" required placeholder="Enter a valid email address">
+<br /><br />
+
+<label for="ZIP">ZIP Code:</label>
+<input name="ZIP" maxlength="5" minlength= "5" class="zip number" type="text" />
+<br/><br/>
+	
+<label for="comment">Comments*:</label><br />
+<textarea name="comment" id="comment" required rows="7" cols="30" />
+</textarea>
+<br /><br />
+	
+<input type="submit" value="Submit" />
+				
+</form>
+</br>
+</br>
+<h2> More Opportunities </h2>
+</br>
+<p> There are various other websites for everyone to learn about Andy Warhol and his artwork. </br> 
+Click on the image to visit the website. </p>
+</br>
+
+<div id = "more"> 
+<a href="http://www.warholfoundation.org/" title="Andy Warhol Museum"><img src="Images/website.jpg" class="frame" /></a>
+<a href="http://www.warhola.com/" title="Andy Warhol Family Album"><img src="Images/website2.jpg" class="frame" /></a>
+<a href="http://www.moma.org/interactives/exhibitions/2010/warhol/" title="Andy Warhol Motion Pictures"><img src="Images/website3.jpg" class="frame" /></a>
+<a href="http://www.artisphere.com/calendar/event-details/Visual-Arts/Andy-Warhol-Silver-Clouds.aspx" title="Andy Warhol Artisphere"><img src="Images/website 4.jpg" class="frame" /></a>
+<a href="http://mam.org/warhol/" title="Milkwaukee Art Museum"><img src="Images/website5.jpg" class="frame" /></a>
+
+
+</div>
+
+
+<footer>
+
+<p>&copy; SangHa Lee, 2013. &nbsp; &nbsp; Photographs &copy; <a href="http://warhol.org" target="_blank">The Warhol Museum</a> unless noted otherwise.</p>
+
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,271 @@
+
+
+@font-face {
+	font-family: Sansation;
+	src: url(../fonts/Sansation/Sansation_Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: journal;
+	src: url(../fonts/Journal/journal.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: DistantGalaxy;
+	src: url(../fonts/Distant-Galaxy/DISTGRG_.ttf) format("truetype");
+}
+
+
+
+html {
+	background: url(../Images/campbell.jpg);
+	repeat top center #424242;
+	background-attachment:fixed;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 30px;
+}
+
+body {
+
+	font-family: ;font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	margin:auto;
+}
+
+
+h1{
+	color: #FFFFFF;
+	font-family: Sansation;
+}
+
+
+
+h2{
+	font-family: journal;
+	font-size: 40px;
+}
+
+h3, h4, h5, h6, {
+
+text-align: center;
+background: #FFFFFF;
+font-family: sans-serif; 
+color: #333333;
+margin: auto;
+
+}
+
+#quote{
+	font-family: journal;
+	font-size: 30px;
+}
+
+#more{
+	padding: 30px;
+	margin: auto;
+}
+
+
+	/* sets all headings to a red color */
+	/* The color can be specified by: Color name, RGB value, Hex value */
+
+
+/* Set placement of full page content */
+#wrapper {
+	background: #FFFFFF;
+	 margin: auto;
+	 width: 922px;
+	 padding-top: 50px;
+	 
+}
+
+	/* top and bottom margins are 0 */
+	/* right and left margins are auto */
+
+
+
+
+	
+
+
+nav { 
+	width: 900px;
+	height: 50px;
+	border: 1px solid #ccc;
+	float: left;
+	margin: 0px 5px 5px 0px;
+	padding: 10px;
+	background: #FFFFFF;
+}
+
+nav a {
+
+	font-family:Sansation;
+	color: #880000; 
+	font-size: 12pt;
+}
+/* Set Links ID display and font */
+/* http://www.w3schools.com/cssref/pr_class_display.asp */
+
+/* Set Links ID display options and roll-over */
+nav a:link {
+	text-decoration: none;
+} 
+	/* Adds special style to an unvisited link */
+
+nav a:visited {
+	text-decoration: none;
+} 
+	/* Adds special style to a visited link */
+
+nav a:hover {
+	text-decoration: none;
+} 
+	/* Adds special style to an element when you mouse over it */
+
+nav a:active {
+	text-decoration: none;
+} 
+	/* 	Adds special style to an activated element */
+
+nav a.newgroup {
+	margin-top: 20px;
+}
+	/* http://www.w3schools.com/CSS/css_pseudo_classes.asp */
+
+/* Set Main ID width, position, padding and border */
+
+#main { 
+	height: 650px; 
+	width: 678px;
+	float: right;
+	border: 1px solid #ccc;
+	margin: 0px 0px 5px 0px;
+	padding: 10px;
+	background: #FFFCFF;
+}
+
+footer { 
+	width: 900px;
+	height: 30px;
+	clear: both;
+	border: 1px solid #ccc;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	background: #880000;
+}
+
+
+#styleswitch {
+	position:absolute;
+	top:0;
+	right:15px;
+	background: #000;
+	padding:13px;
+}
+
+#styleswitch ul li a {
+	font-size:12px;
+	color: #fff;
+	text-decoration:none;
+}
+
+#styleswitch ul li a:hover {
+	text-decoration:underline;	
+}
+
+#contact_form{
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+	padding: 50px;
+
+}
+
+#tables{
+	margin-left: 100px;
+	text-align: left;
+	font-family: ;font-family:Arial, Helvetica, sans-serif;
+	font-size: 25px;
+
+}
+
+th {
+
+	text-align: center;
+}
+
+td {
+
+	font-family: ;font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	vertical-align: top; 
+	border-bottom: 1px solid black; 
+	padding-bottom: 2px;
+	padding-right: 30px;
+}
+
+#nav-bar {
+    z-index: 100;
+}
+
+#nav-bar.ulnodec li {
+    vertical-align: middle;
+}
+
+#nav-img {
+    height: 5em;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 1em;
+}
+
+#nav-bar ul {
+    margin:0;
+    padding:0;
+}
+
+.ulnodec {
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav-bar {
+    position: fixed;
+    background: #000000;
+    margin-left: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 0 0 15px 0 #fff;
+}
+
+#nav-bar a {
+    color: #b2b2b2;
+    text-decoration: none;
+    transition: color .2s ease-out;
+}
+
+#nav-bar a:hover {
+    cursor: pointer;
+    color: white;
+    /*font-weight: bold;*/
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.disp-inline {
+    display: inline;
+    padding: 30px;
+}
+
+#nav-img {
+    height: 5em;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 1em;
+}
+
+
+div#ui-accordion-accordion-panel-0{
+	height:900px;
+}
